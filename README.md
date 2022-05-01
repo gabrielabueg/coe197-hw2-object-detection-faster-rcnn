@@ -18,13 +18,13 @@ This homework is based on [Sovit Ranjan Raths Tutorial series on object detectio
       &emsp;&emsp;|--0000100.xml\
       &emsp;&emsp;...
       
- &emsp;-outputs\
+ -outputs\
  	&emsp;&emsp;|--model.pth\
  	&emsp;&emsp;|--train_loss_10.png\
 	&emsp;&emsp;|--valid_loss_10.png\
  	&emsp;&emsp;...
 
- &emsp;-src\
+ -src\
   &emsp;&emsp;|--config.py\
   &emsp;&emsp;|--datasets.py\
   &emsp;&emsp;|--engine.py\
