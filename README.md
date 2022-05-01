@@ -1,5 +1,5 @@
 # Objection Detection using Faster R-CNN on the Drinks Dataset
-**Homework 2 submission for CoE197Z
+Homework 2 submission for CoE197Z
 by John Gabriel Porton , 201803016
 
 ## Link/Reference
@@ -57,20 +57,19 @@ This homework is based on [Sovit Ranjan Raths Tutorial series on object detectio
 3. cd to src folder
 4. Put images in the test_data folder for inference
   4.1 If running inference by batch, file name is unnecessary
-  4.2 If running inference on a single photo, filename must be 'input_img.jpg', resulting output will be 'Out_img'
+  4.2 If running inference on a single photo, filename must be `input_img.jpg` , resulting output will be `Out_img`
 5. Put videos in the test_data_videos folder for inference
-  5.1 Video file must be named 'input_video.mp4', resultng output will be an mp4 file called 'output_video.mp4'
+  5.1 Video file must be named `input_video.mp4`, resultng output will be an mp4 file called `output_video.mp4`
   
 ## Code Execution
-If all files and input files have their correct filenames and are in their respective folders
-run:
-    'python inf_batch.py' if doing inference per batch of photos
-    'python inf_single.py' if doing inference on a single photo
-    'python inf_video.py' if doing inference on a video
+If all files and input files have their correct filenames and are in their respective folders\
+run:\
+    `python inf_batch.py` if doing inference per batch of photos\
+    `python inf_single.py` if doing inference on a single photo\
+    `python inf_video.py` if doing inference on a video\
     
 ## Outputs and Graphs
 <p align="center">
-	<br><br>
 	<img src="https://user-images.githubusercontent.com/67114171/166144863-4332bb26-8f4b-4e99-823c-9a2e78a81a46.png">
 	<br
 	<b>Model train loss by iteration</b><br>
