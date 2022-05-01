@@ -1,0 +1,50 @@
+<annotation>
+	<folder>drinks</folder>
+	<filename>0000566.jpg</filename>
+	<path>C:\Users\Gabriel\Downloads\up\Advanced-Deep-Learning-with-Keras-master\Advanced-Deep-Learning-with-Keras-master\dataset\drinks\0000566.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Summit Water</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>223</ymin>
+			<xmax>284</xmax>
+			<ymax>301</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Cola</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>274</xmin>
+			<ymin>212</ymin>
+			<xmax>454</xmax>
+			<ymax>299</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pine Juice</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>451</xmin>
+			<ymin>223</ymin>
+			<xmax>618</xmax>
+			<ymax>292</ymax>
+		</bndbox>
+	</object>
+</annotation>
