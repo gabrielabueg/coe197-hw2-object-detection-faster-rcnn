@@ -8,46 +8,48 @@ This homework is based on [Sovit Ranjan Raths Tutorial series on object detectio
 ## Data preparation
 ### Data Structure
 
-> -Dataset
->  |--test
->     |--0000020.jpg
->      |--0000020.xml
->      ...
->  |--train
->      |--0000100.jpg
->      |--0000100.xml
->      ...
->      
-> -outputs
->  |--model.pth
->  |--train_loss_10.png
->  |--valid_loss_10.png
->  ...
->
-> -src
->  |--config.py
->  |--datasets.py
->  |--engine.py
->  |--inf_single.py
->  |--inf_video.py
->  |--inf_batch.py
->
-> -test_data
->  |--0000984.jpg
->  ...
-> -test_data_video
-> 
-> -test_predictions
->  ...
->  
-> -requirements.txt
+ -Dataset\
+ &emsp;|--test\
+	&emsp;&emsp;|--0000020.jpg\
+	&emsp;&emsp;|--0000020.xml\
+ 	&emsp;&emsp;...\
+ &emsp;|--train\
+      &emsp;&emsp;|--0000100.jpg\
+      &emsp;&emsp;|--0000100.xml\
+      &emsp;&emsp;...
+      
+ &emsp;-outputs\
+ 	&emsp;&emsp;|--model.pth\
+ 	&emsp;&emsp;|--train_loss_10.png\
+	&emsp;&emsp;|--valid_loss_10.png\
+ 	&emsp;&emsp;...
 
-Dataset - contains the dataset
-outputs - contains the trained models, loss graphs and weights
-src - contains the main python code files
-test_data - contains images for inference
-test_data_video - contains videos for inference
-test_predictions - contains inference results
+ &emsp;-src\
+  &emsp;&emsp;|--config.py\
+  &emsp;&emsp;|--datasets.py\
+  &emsp;&emsp;|--engine.py\
+  &emsp;&emsp;|--inf_single.py\
+  &emsp;&emsp;|--inf_video.py\
+  &emsp;&emsp;|--inf_batch.py
+  
+ -test_data\
+  &emsp;|--0000984.jpg\
+  &emsp;&emsp;...\
+ -test_data_video\
+  &emsp;...\
+ -test_predictions\
+  &emsp;...
+  
+ -requirements.txt
+ 
+|Folder | Description |
+| --- | --- |
+| Dataset | contains the dataset |
+| outputs | contains the trained models, loss graphs and weights |
+| src | contains the main python code files |
+| test_data | contains images for inference |
+| test_data_video | contains videos for inference |
+| test_predictions | contains inference results |
   
 ## Prerequisite/Setup
 1. Clone the repository
@@ -67,6 +69,24 @@ run:
     'python inf_video.py' if doing inference on a video
     
 ## Outputs and Graphs
+<p align="center">
+	<br><br>
+	<img src="https://user-images.githubusercontent.com/67114171/166144863-4332bb26-8f4b-4e99-823c-9a2e78a81a46.png">
+	<br
+	<b>Model train loss by iteration</b><br>
+	<br><br>
+	<img src ="https://user-images.githubusercontent.com/67114171/166145903-9ff2eb30-cee7-4298-abb0-4ab13d4270ae.jpg">
+	<br>
+	<b> Sample Image input </b>
+	<br><br>
+	<img src ="https://user-images.githubusercontent.com/67114171/166145928-6dd11e16-912d-4be4-a402-50fa89a8c24c.jpg">
+	<br>
+	<b> Sample Image Output </b>
+
+
+</p>
+
+
 
 
 
