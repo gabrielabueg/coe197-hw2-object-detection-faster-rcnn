@@ -1,12 +1,12 @@
-# coe197-hw2
+# Objection Detection using Faster R-CNN on the Drinks Dataset
 **Homework 2 submission for CoE197Z
 by John Gabriel Porton , 201803016
 
-# Link/Reference
+## Link/Reference
 This homework is based on [Sovit Ranjan Raths Tutorial series on object detection with python and torchvision](https://debuggercafe.com/ssdlite-mobilenetv3-backbone-object-detection-with-pytorch-and-torchvision/)
 
-# Data preparation
-## Data Structure
+## Data preparation
+### Data Structure
 
 > -Dataset
 >  |--test
