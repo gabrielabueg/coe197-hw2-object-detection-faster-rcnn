@@ -53,8 +53,8 @@ This homework is based on [Sovit Ranjan Raths Tutorial series on object detectio
   
 ## Prerequisite/Setup
 1. Clone the repository
-2. Download necessary libraries/modules/packages using 'pip install -r requirements.txt'
-3. cd to src folder
+2. Download necessary libraries/modules/packages using `pip install -r requirements.txt`
+3. cd to src folder  `cd src`
 4. Put images in the test_data folder for inference
   4.1 If running inference by batch, file name is unnecessary
   4.2 If running inference on a single photo, filename must be `input_img.jpg` , resulting output will be `Out_img`
